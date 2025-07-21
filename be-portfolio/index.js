@@ -14,8 +14,14 @@ app.use(MailRouter);
 
 const PORT = process.env.PORT || 8000;
 
+const uri = process.env.MONGODB_URI;
+
+if (!uri) {
+  console.error("MONGO_URI is not defined");
+  process.exit(1);
+}
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(uri)
   .then(() => {
     app.listen(PORT, () => {
       console.log(`⚡️ Server running on http://localhost:${PORT}`);
