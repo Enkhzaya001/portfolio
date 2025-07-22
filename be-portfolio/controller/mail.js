@@ -14,9 +14,9 @@ const sendMail = async (req, res) => {
   const { name, email, message } = req.body;
 
   const mailOptions = {
-    from: process.env.GMAIL_USER, // өөрийнхөө имэйлээр илгээх
-    to: process.env.GMAIL_USER, // өөрийнхөө имэйл хаяг руу авах
-    replyTo: email, // хэрэглэгчийн имэйл рүү хариу илгээхэд ашиглана
+    from: process.env.GMAIL_USER,
+    to: process.env.GMAIL_USER,
+    replyTo: email,
     subject: `Portfolio Contact from ${name}`,
     text: message,
   };
