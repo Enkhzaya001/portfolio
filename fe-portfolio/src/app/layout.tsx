@@ -37,7 +37,7 @@ export default function RootLayout({
                 <Link href="/">
                   <button
                     type="button"
-                    className="hover:underline decoration-purple-300"
+                    className="hover:underline decoration-purple-300 "
                   >
                     Home
                   </button>
@@ -58,7 +58,10 @@ export default function RootLayout({
                   </button>
                 </Link> */}
                 <Link href="/skills">
-                  <button type="button" className="hover:underline">
+                  <button
+                    type="button"
+                    className="hover:underline mr-10 md:mr-0"
+                  >
                     Skills
                   </button>
                 </Link>

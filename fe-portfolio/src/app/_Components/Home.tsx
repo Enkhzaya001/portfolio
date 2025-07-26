@@ -46,7 +46,7 @@ export default function Home() {
         <img
           src="/myPhoto.jpg"
           alt="Developer Visual"
-          className="w-50 md:w-[300px] h-auto rounded-full"
+          className=" w-50 md:w-[300px] h-auto rounded-full"
         />
       </motion.div>
       <div className="flex-1 space-y-6 text-center md:text-left ">

@@ -67,7 +67,7 @@ export default function Projects() {
       {projects.map((proj, idx) => (
         <Card
           key={idx}
-          className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 p-5 border bg-white/5 backdrop-blur-md shadow-lg"
+          className="md:flex flex-col md:flex-row justify-between items-center md:items-center gap-4 p-5 border bg-white/5 backdrop-blur-md shadow-lg"
         >
           <CardContent className="flex-1 space-y-1 text-white">
             <p className="text-xl font-semibold">{proj.title}</p>
@@ -85,7 +85,7 @@ export default function Projects() {
               Link: {proj.link.replace(/^https?:\/\//, "")}
             </a>
           </CardContent>
-          <div className="flex gap-3 text-xl text-purple-400">
+          <div className="flex  justify-center gap-3 text-xl text-purple-400">
             {proj.stack.map((Icon, i) => (
               <span key={i}>{Icon}</span>
             ))}
