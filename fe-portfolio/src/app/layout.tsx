@@ -52,11 +52,11 @@ export default function RootLayout({
                     Projects
                   </button>
                 </Link>
-                <Link href="/contact">
+                {/* <Link href="/contact">
                   <button type="button" className="hover:underline">
                     Contact
                   </button>
-                </Link>
+                </Link> */}
                 <Link href="/skills">
                   <button type="button" className="hover:underline">
                     Skills
