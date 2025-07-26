@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import { MailRouter } from "./routes/contact";
+dotenv.config();
 
 const connect = async () => {
   await mongoose.connect(
@@ -11,8 +12,6 @@ const connect = async () => {
 };
 
 connect();
-
-dotenv.config();
 const app = express();
 
 app.use(cors());
@@ -21,12 +20,12 @@ app.use(express.json());
 app.use(MailRouter);
 
 const PORT = process.env.PORT || 8000;
-const uri = process.env.MONGODB_URI;
+// const url = process.env.MONGODB_URL;
 
-if (!uri) {
-  console.error("MONGO_URI is not defined");
-  process.exit(1);
-}
+// if (!url) {
+//   console.error("MONGO_URI is not defined");
+//   process.exit(1);
+// }
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
