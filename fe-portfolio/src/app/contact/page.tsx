@@ -13,7 +13,7 @@ const Contact = () => {
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error"
   >("idle");
-
+  console.log(status);
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -25,7 +25,7 @@ const Contact = () => {
     setStatus("sending");
 
     try {
-      const res = await fetch("https://portfolio-50rx.onrender.com", {
+      const res = await fetch("https://portfolio-0rdv.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
