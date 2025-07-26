@@ -33,7 +33,7 @@ export default function RootLayout({
         <LanguageProvider>
           <section className="min-h-screen bg-gradient-to-b from-purple-900 via-black to-gray-900  text-white flex flex-col items-center">
             <div className="bg-purple-900 h-16 w-full">
-              <div className="w-full flex justify-center  py-5 space-x-3 md:space-x-6 text-md md:text-xl font-light z-10">
+              <div className="w-full flex justify-center right-10 md:right-0  py-5 space-x-3 md:space-x-6 text-md md:text-xl font-light z-10">
                 <Link href="/">
                   <button
                     type="button"
