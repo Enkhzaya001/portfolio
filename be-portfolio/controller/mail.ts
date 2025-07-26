@@ -1,5 +1,7 @@
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import { Request, Response } from "express";
+
 dotenv.config();
 
 const transporter = nodemailer.createTransport({
@@ -10,7 +12,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const sendMail = async (req, res) => {
+const sendMail = async (req: Request, res: Response) => {
   const { name, email, message } = req.body;
 
   const mailOptions = {
