@@ -48,7 +48,7 @@ const projects = [
     description: "Donation-based app using PostgreSQL and Prisma backend.",
     description2:
       "PostgreSQL と Prisma をバックエンドに使用した寄付型のアプリです。",
-    link: "buy-me-coffee-green.vercel.app",
+    link: "https://buy-me-coffee-green.vercel.app/",
     stack: [
       <FaReact />,
       <FaNodeJs />,
