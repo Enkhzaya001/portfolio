@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.use(MailRouter);
 
-const PORT = process.env.PORT || 8000;
+const PORT = 8000;
 // const url = process.env.MONGODB_URL;
 
 // if (!url) {
