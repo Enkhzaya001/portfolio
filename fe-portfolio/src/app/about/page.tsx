@@ -25,7 +25,7 @@ const text: Record<
       "Moving forward, I hope to grow continuously by gaining hands-on experience in software development. Thank you for visiting my portfolio!",
   },
   jp: {
-    about: "はじめまして。エンフザヤと申します。現在25歳で、モンゴル出身です。",
+    about: "はじめまして。エンフザヤと申します。現在26歳で、モンゴル出身です。",
     about2:
       "2021年にモンゴル科学技術大学の航空エンジニア専攻を卒業し、その後約2年半にわたり日本で機械設計エンジニアとして、製品のデザインおよび図面作成業務に携わってまいりました。",
     about3:
