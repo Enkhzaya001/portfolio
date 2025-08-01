@@ -14,7 +14,7 @@ const text: Record<
 > = {
   en: {
     about:
-      "Hello, I'm Enkhzaya, a 25-year-old aspiring software engineer from Mongolia.",
+      "Hello, I'm Enkhzaya, a 26-year-old aspiring software engineer from Mongolia.",
     about2:
       "In 2021, I graduated from the Mongolian University of Science and Technology with a major in Aerospace Engineering.  After that, I worked in Japan for about two and a half years as a mechanical design engineer, where I was involved in product design and drafting.",
     about3:
